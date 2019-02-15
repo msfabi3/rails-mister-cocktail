@@ -12,3 +12,11 @@
     }
 Ingredient.create(ingredients_attributes)
 end
+
+50.times do
+  ingredients_attributes =
+    {
+      name: Faker::Beer.name
+    }
+Ingredient.create(ingredients_attributes)
+end

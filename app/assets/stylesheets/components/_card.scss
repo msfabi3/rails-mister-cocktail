@@ -1,0 +1,12 @@
+.card-cocktail {
+  background-color: rgba(30, 30, 30, 0.6);
+  color: white;
+  &:hover {
+    background-color: rgba(30, 30, 30, 0.8)
+  }
+}
+.second-title {
+  a:hover {
+    text-decoration: none;
+  }
+}

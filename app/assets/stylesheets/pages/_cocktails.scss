@@ -1,0 +1,39 @@
+// Specific CSS for your home-page
+.main-title {
+  color: $dark-purple;
+  text-align: center;
+  font-size: 60px;
+}
+.second-title {
+  a {
+    color: $dark-purple;
+  }
+}
+
+p {
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $light-purple;
+  }
+}
+
+h3 {
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+  color: $light-purple;
+}
+
+body {
+  background-image: asset-url('drinkone.jpg');
+  background-size: cover;
+}
